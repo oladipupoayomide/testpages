@@ -167,7 +167,7 @@ footer{
 
 #showcase{
     min-width:1000px;
-    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/sampleimages/pic1.jpg') no-repeat 0 -600px;
+    background: url('../images/sampleimages/pic1.jpg') no-repeat 0 -450px;
     
         
       }
