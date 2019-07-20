@@ -166,8 +166,8 @@ footer{
     
 
 #showcase{
-    
-    width: auto ;
+    min-width:1000px;
+    width: au1to ;
     max-width: 100% ;
     height: auto ;
  }
