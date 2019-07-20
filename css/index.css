@@ -166,7 +166,9 @@ footer{
     
 
 
-
+#showcase {
+    min-height: 600px;
+}
  #showcase h1{
      font-size: 10px !important;
  }
