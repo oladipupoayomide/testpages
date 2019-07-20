@@ -166,18 +166,14 @@ footer{
     
 
 #showcase{
-    min-width:600px;
-
-    
-        
-      }
+    min-height: 700px;
+    background:contain;
  }
 
  #showcase h1{
-     font-size: 15px !important;
+     font-size: 10px !important;
  }
-
-
+}
  /** end of homepage**/
 
 
