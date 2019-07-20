@@ -166,11 +166,14 @@ footer{
     
 
 #showcase{
-    min-height: 800px;
+    
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
  }
 
  #showcase h1{
-     font-size: 10px !important;
+     font-size: 15px !important;
  }
 }
  /** end of homepage**/
