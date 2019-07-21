@@ -37,10 +37,7 @@ box-sizing: border-box;
      color:#ffffff;
 }
 
-.sidebarhead{
-    float: left;
-    
-}
+
 
 .container h1{
     margin-top: 100px;
@@ -65,6 +62,47 @@ width:360px;
 padding: 10% 0 0;
 margin: auto;
 }
+
+ 
+/*
+recent-transactions-area {
+    width: 70%;
+    margin: 2rem auto;
+    color: var(--primary-color);
+    padding: 2rem;
+    border-top: 10px solid var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0px blue;
+  }
+  
+  .recent-transactions-area {
+    width: 40%;
+    height: 70%;
+    margin: 2rem auto;
+    color: #e8491d;
+    padding: 7.5rem;
+    border-top: 10px solid #e8491d;
+    border-bottom: 18px solid #35424a ;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0px #35424a;
+  }    */
+  .recent-transactions-area {
+    width: 30%;
+    margin: 2rem auto;
+    color:#e8491d;
+    padding: 5rem;
+    border-top: 10px solid #e8491d;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0px #35424a;
+  }
+  .recent-transaction-item {
+    padding: 1rem;
+  }
+  .recent-transaction-item-date {
+    color: var(--dark-grey);
+    font-size: 14px;
+    font-weight: bold;
+  }  
 
 .form1{
 position: relative;
@@ -192,6 +230,12 @@ float: right !important;
     display: none !important;
     margin: auto;
 }
+
+
+
+
+
+
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
 width:400px; /* Set the width of the sidebar */
