@@ -8,86 +8,39 @@
     <link rel="stylesheet" href="css/create.css">
 </head>
 <body>
-<div  class="content">
-    <h1 class="heading" >#1 Software for Maintenance &amp; Facilities</h1>
- <div class="container">
-        <h1>#1 Software for Maintenance &amp; Facilities</h1>
-           <p>sdjdhdhjdc sdhdjkid loem dhdjhag vdcghjsdjud fvydhsjajhj fsdgtfhdiujd fsdhjsdjosdbhfgv gfdgihdekj
-        sdbhigdfj vdgbhsgijhnd gvhgdbjhok vgdthkjld sygyuhwekj gfyidklpwe hyfdguewoew dgbuhewdhos gcdgyohsx ycyg 
-        cvgucu gfcxgia sg8ywsojs ggfdegdx gftyedginxd  fgsdyhgasgasd fsaugsghgiu]yfx fdsyrdfugshxdx fdysfdgsa frdtsuufs dyrzuyfujsa
-        sfgtfugdsyh gfsadutfgiu gfsudtfaiyqwe gfasdtiygeqw yugfyehge.
-           </p>
-                  </div>
-    
-                
-                        <div class="sidenav">
-                                        <div class="recent-transactions-area">
-<div class="main">           
-
-        <h3>create account</h3>
-        <div class="recent-transaction-item">
-                        <form    class="loginbox" action="/action_page.javascript" method="post">
-
-
-                                <p>username</p>
-                
-                        <input type="text"    minlength="3" maxlength="12"   name=""  required   placeholder="Username"  >
-                                <p>password</p>
-                        <input type="text"    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"   title="By including at least 1 uppercase character, 1 lowercase character, and 1 number."   placeholder="password"/>
-                                
-                                
-                                <p>username</p>
-                        <input type="text"   name="" placeholder="username"> 
-                                <p>Email</p>
-                        <input  type="email"    pattern="^([^\x00-\x20\x3a\x3\x5c[\x00-\x7f])*\x5d))*$" name  ="" placeholder="Email address">
-                                <br>
-                                                                
-                                <input type="submit" name="" class="recent-transaction-item-date"   value="login"> 
-                                <a href="#">  Lost your password</a>
-                        <a href="#">  Don't have an account?</a>
-
-                                
-                                
-                        </form>
-                        <p> Date: 19/4/2019</p>2019</p>
-                
+    <div  class="content">
+        <h1 class="heading" >#1 Software for Maintenance &amp; Facilities</h1>
+        <div class="container">
+            <h1>#1 Software for Maintenance &amp; Facilities</h1>
+            <p>sdjdhdhjdc sdhdjkid loem dhdjhag vdcghjsdjud fvydhsjajhj fsdgtfhdiujd fsdhjsdjosdbhfgv gfdgihdekj sdbhigdfj vdgbhsgijhnd gvhgdbjhok vgdthkjld sygyuhwekj gfyidklpwe hyfdguewoew dgbuhewdhos gcdgyohsx ycyg cvgucu gfcxgia sg8ywsojs ggfdegdx gftyedginxd  fgsdyhgasgasd fsaugsghgiu]yfx fdsyrdfugshxdx fdysfdgsa frdtsuufs dyrzuyfujsa sfgtfugdsyh gfsadutfgiu gfsudtfaiyqwe gfasdtiygeqw yugfyehge.</p>
         </div>
-                                                        
-                                                                   
-                <!--
-                                        <div class="recent-transactions-area">
-                                                
-                
-                       
-                                 
-                 <form    class="loginbox" action="/action_page.javascript" method="post">
-             
-                         
-                         <p>username</p>
-             
-                 <input type="text"    minlength="3" maxlength="12"   name=""  required   placeholder="Username"  >
-                         <p>password</p>
-                 <input type="text"    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"   title="By including at least 1 uppercase character, 1 lowercase character, and 1 number."   placeholder="password"/>
-                         
-                         
-                         <p>username</p>
-                 <input type="text"   name="" placeholder="username"> 
-                         <p>Email</p>
-                 <input  type="email"    pattern="^([^\x00-\x20\x3a\x3\x5c[\x00-\x7f])*\x5d))*$" name  ="" placeholder="Email address">
-                         <br>
-                         
-                 <input type="submit" name=""   value="login"> 
-                         <a href="#">  Lost your password</a>
-                         <a href="#">  Don't have an account?</a>
-                         
-                 </form>
-                             
-                                  </div>    </div>
-                                -->
-                          </div>
-                        </div>
-                                
-                      
-                   
+        <div class="sidenav">
+            <div class="paddinarea">
+                <div class="main">           
+                    <form class="loginbox" action="/action_page.javascript" method="post">
+                        <p>username</p>
+                        <input type="text" minlength="3" maxlength="12" name="" required placeholder="Username">
+                        <p>password</p>
+                        <input type="text" pattern="^(?=.\d)(?=.[a-z])(?=.[A-Z])(?!.\s).*$" title="By including at least 1 uppercase character, 1 lowercase character, and 1 number." placeholder="password"/>   
+                        <p>username</p>
+                        <input type="text" name="" placeholder="username"> 
+                        <p>Email</p>
+                        <input type="email" pattern="^([^\x00-\x20\x3a\x3\x5c[\x00-\x7f])\x5d))$" name ="" placeholder="Email address"><br> 
+                        <input type="submit" name=""  value="login"> 
+                        <a href="#">Lost your password</a>
+                        <a href="#">Don't have an account?</a>           
+                    </form>    
+                </div> 
+            </div>
+            <div class="date">
+                <p id="date"></p>
+
+         
+            </div>
+        </div>     
+    </div>   
+    <script>
+        document.getElementById("date").innerHTML = new Date();
+        </script>             
 </body>
 </html>

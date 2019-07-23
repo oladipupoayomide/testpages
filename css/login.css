@@ -51,7 +51,7 @@ header nav{
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../images/sampleimages/pic1.jpg) no-repeat 0 -400px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../images/sampleimages/pic1.jpg) ;
     
     height:90vh;
     background-size: cover;
