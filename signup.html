@@ -35,7 +35,7 @@
 <body>
         <div class="login-page">
                 <div class="form ">
-            <form    class="register-form "   action="/action_page.javascript" method="post">
+            <form    class="register-form "    method="post"  action=".//overview.html">
                <input type="text"     minlength="3" maxlength="12"      name="username"   id="usernamesignup" name="usernamesignup"  type="text" required   placeholder="Username"  >
                <input type="text"     pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"   title="By including at least 1 uppercase character, 1 lowercase character, and 1 number."   placeholder="password"/>
                <input  type="email"    pattern="^([^\x00-\x20\x3a\x3\x5c[\x00-\x7f])*\x5d))*$" name  ="email" placeholder="Email address">
@@ -43,7 +43,8 @@
             
             
                       
-                        <button class="submit">create</button>
+                        
+                        <button ondblclick="myalert () ">Submit</button>
                         
                     <br>
                 <p class="message"> Already a member? <a href="login.html"> login</a>
@@ -51,6 +52,12 @@
                 
                         
             </form>
+
+                    <script>
+    function myalert () {
+        alert ("welcome ! you are sucessfully logged in");
     
+    }
+</script>
 </body>
 </html>
