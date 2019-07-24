@@ -65,7 +65,7 @@ header .highlight, header .current a{
 
 
 #showcase{
-    min-height: 480px;
+    min-height: 580px;
     background:   linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/sampleimages/pic1.jpg') no-repeat 0 -400px;
     text-align: center;
     color:#fff;
